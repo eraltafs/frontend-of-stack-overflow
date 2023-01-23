@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#navbar{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar img{
+    width: 30%;
+}
+#navmenu{
+    display: flex;
+    gap: 10px;
+}
+.tagsbuttons{
+    display: flex;
+    gap:10px
+}
+#main{
+    margin: auto;
+    width: 80%;
+   
+}
+#logo{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+button, input[type=submit]{
+    cursor: pointer;
+    padding: 4px 12px;
+    border-radius: 10px;
+    border: none;
+}
+button:hover, input[type=submit]:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 10px 15px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translate(4px);
+}
+button:active, input[type=submit]:active{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#search{
+    background-color:rgb(188, 188, 188);
+    border-radius: 10px;
+    border: none;
+    padding: 4px 12px;
+    color: black;
+}
+
+#formdiv{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    max-height: max-content;
+    width: 80%;
+    margin: auto;
+
+}
+#signupform input,#loginform input{
+    display: block;
+    margin: 10px 0px;
+}
+#signupform, #loginform{
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}

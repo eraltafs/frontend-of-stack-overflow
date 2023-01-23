@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/askquestion.css">
+    <script src="https://kit.fontawesome.com/add05b7e25.js" crossorigin="anonymous"></script>
+    <title>Ask Question</title>
+</head>
+<body>
+    <div id="navbar">
+        <div >
+            <img id="logo" src="./static/img/QuriousTechie.png" alt="" srcset="">
+        </div>
+        <div id="searchdiv">
+            <input type="search" name="search" id="search" placeholder="Search Query">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div id="navmenu">
+
+            <button><a href="./askquestion.html">Ask Question</a> </button>
+            <button id="profile_button"><a href="./profile.html">Profile</a></button>
+            <button id="signup_button"><a href="./signup.html">login/signup</a> </button>
+            <button id="logout_button">logout</button>
+        </div>
+
+    </div>
+    <hr>
+    <div id="main">
+        <h1>Put Your Question Here</h1>
+        <form id="questionform">
+            <label for="question">Question</label>
+            <input type="text" name="question" id="question" placeholder="Type your Question">
+            <label for="tag">Tags</label>
+            <input type="text" name="tag" id="tag" placeholder="Tags seprate by ','(comma) ">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+
+</body>
+</html>
+<script src="./src/askquestion.js"></script>
